@@ -540,7 +540,7 @@ table.tablesorter {
 	border-right: 1px solid #1F2A34;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-	background-color: #e6EEEE; /* #e6EEEE */
+	background-color: #e6EEEE;
 	border: 1px solid grey;
 	font-size: 8pt;
 	padding: 4px;
@@ -569,7 +569,7 @@ table.tablesorter thead tr .headerSortDown {
 	background-image: url(images/desc.gif);
 }
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-	background-color: #8dbdd8; /* #8dbdd8 */
+	background-color: #8dbdd8;
 }
 table.tablesorter tfoot td {
 	color: #3D3D3D;
@@ -723,11 +723,11 @@ p{
 }
 
 .input {
-	border: 1px solid #006; }
+	border: 1px solid #333; }
 
 	input[type=button], input[type=submit], input[type=reset], button, .button {
 	padding: 3px 8px;
-	margin: 5px 2px;
+	margin: 2px 2px 5px 2px;
 	display: inline-block;
 	color: #000000;
 	cursor: pointer;
@@ -765,7 +765,7 @@ input[type=file]{
 	background: -moz-linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
 	background: -webkit-linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
 	background: -o-linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
-	border: 1px solid #006;
+	border: 1px solid #333;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -784,7 +784,7 @@ input[type=file]:hover, input[type=file]:active{
 }
 	
 input[type=text], input[type=password] {
-	margin: 5px 2px;
+	margin: 2px 2px 5px 2px;
     padding:5px; 
     border:1px solid #ccc; 
     -webkit-border-radius: 5px;
@@ -795,6 +795,7 @@ input[type=text]:focus , input[type=text]:active , input[type=text]:hover, input
 }
 
 textarea{
+	margin: 2px 2px 5px 2px;
     padding:5px; 
     border:1px solid #ccc; 
     -webkit-border-radius: 5px;
@@ -804,7 +805,7 @@ textarea:focus, textarea:active , textarea:hover{
     border-color:#333;
 }
 
-select {
+select {  display: inline-block;
     -webkit-appearance: button;
     -moz-appearance: button;
     -webkit-user-select: none;
@@ -825,7 +826,7 @@ select {
     border-radius: 2px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
     font-size: inherit;
-    margin: 5px 2px;
+    margin: 2px 2px 5px 2px;
     overflow: hidden;
     padding-top: 2px;
     padding-bottom: 2px;
