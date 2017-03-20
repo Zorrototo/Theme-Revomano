@@ -725,7 +725,7 @@ p{
 .input {
 	border: 1px solid #333; }
 
-	input[type=button], input[type=submit], input[type=reset], button, .button {
+	input[type=button], input[type=submit], input[type=reset], input[type=file], button, .button {
 	padding: 3px 8px;
 	margin: 2px 2px 5px 2px;
 	display: inline-block;
@@ -747,42 +747,16 @@ p{
 	-o-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
 	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.50);
 }
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover, .button:hover {
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=file]:hover, button:hover, .button:hover {
 	background: linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
 	background: -moz-linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
 	background: -webkit-linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
 	background: -o-linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
 }
-input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button:active, .button:active{
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active, input[type=file]:active, button:active, .button:active{
 	opacity:0.8;
 }
-input[type=file]{
-	display: inline-block;
-	color: #000000;
-	cursor: pointer;
-	background: #FFFFFF;
-	background: linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
-	background: -moz-linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
-	background: -webkit-linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
-	background: -o-linear-gradient(top, #FFFFFF 0%, #e6e6e6 100%);
-	border: 1px solid #333;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
-	-moz-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
-	-webkit-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
-	-o-box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
-	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.50);
-}
-input[type=file]:hover, input[type=file]:active{
-	background: linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
-	background: -moz-linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
-	background: -webkit-linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
-	background: -o-linear-gradient(top, #ffffff 0%, #FFFFFF 100%);
-}
-	
+
 input[type=text], input[type=password] {
 	margin: 2px 2px 5px 2px;
     padding:5px; 
